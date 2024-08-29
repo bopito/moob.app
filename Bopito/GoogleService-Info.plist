@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBk_0-UiQuKMG2xsXgPdWEahIvuKKNn6yI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>381043532699</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hansheidmann.bopito</string>
+	<key>PROJECT_ID</key>
+	<string>b-o-p-i-t-o</string>
+	<key>STORAGE_BUCKET</key>
+	<string>b-o-p-i-t-o.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:381043532699:ios:a559b7f3e5b99c0d5b773e</string>
+</dict>
+</plist>
