@@ -24,7 +24,29 @@ struct ComposeView: View {
                 .background(Color(.systemGray6))
                 .cornerRadius(8)
             
-            Button(action: submitPost) {
+            Button(action: {
+                // Call the submitPost function asynchronously
+                Task {
+                    do {
+                        let post = Post(
+                            id: UUID(),
+                            author: try await authManager.getUsername(), // Fetch the username
+                            timestamp: Date(),
+                            replies: [],
+                            repliesCount: 0,
+                            likesCount: 0,
+                            likers: [],
+                            text: postText
+                        )
+                        try await authManager.submitPost(postText: postText)
+                        // Clear the text editor on success
+                        postText = ""
+                        print("Post submitted successfully.")
+                    } catch {
+                        print("Error submitting post: \(error.localizedDescription)")
+                    }
+                }
+            }) {
                 Text("Submit Post")
                     .bold()
                     .frame(width: 150, height: 40)
@@ -41,37 +63,9 @@ struct ComposeView: View {
     }
     
     
-    private func submitPost() {
-        // Ensure the user is authenticated
-        guard let user = authManager.currentUser else {
-            print("User is not authenticated.")
-            return
-        }
-        
-        // Create a new Submission
-        let newSubmission = Post(
-            id: UUID(),
-            author: user.displayName ?? "anonymous1",
-            timestamp: Date(),
-            replies: [],
-            repliesCount: 0,
-            likesCount: 0,
-            likers: [],
-            text: postText
-        )
-        
-        // Save the new post to Firebase
-        
-        
-        authManager.submitPost(post: newSubmission)
-        
-        print("Post submitted: \(newSubmission)")
-        // Clear the text editor
-        postText = ""
-        
-        
-        
-    }
+    
+    
+    
 }
 
 
