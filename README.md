@@ -1,1 +1,1 @@
-Next.js Bopito Web Frontend
+Bopito Web Frontend
