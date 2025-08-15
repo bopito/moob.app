@@ -1,1 +1,1 @@
-Bopito Web Frontend
+Moob landing page
