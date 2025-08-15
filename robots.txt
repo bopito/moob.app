@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Sitemap: https://moob.app/sitemap.xml
+
+# Allow all bots to index the site
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /AppIcon.png
+Allow: /preview.jpg
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
