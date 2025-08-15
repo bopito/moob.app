@@ -49,6 +49,16 @@
   <meta name="twitter:app:name:iphone" content="Moob™" />
 
   <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  
+  <!-- Material Symbols -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,0" />
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" type="text/css" />
+
+  <!-- Favicon -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <!-- Styles -->
   <link rel="stylesheet" href="/styles.css">
@@ -168,8 +178,14 @@
     <img src="AppIcon.png" alt="Moob social app icon for iOS" class="logo" width="300" height="300" loading="eager" itemprop="image" />
 
     <!-- Branding -->
-    <h1 itemprop="headline">It's time to Moob™</h1>
-    <h2 itemprop="alternativeHeadline">Download Now</h2>
+    <div class="brand-heading" itemprop="headline">
+      <h1>Moob<span class="tm-mark">™</span></h1>
+      
+    </div>
+    
+          <h2 class="wave-text" itemprop="slogan">
+        <span>I</span><span>t</span><span>'</span><span>s</span><span class="space"></span><span>t</span><span>i</span><span>m</span><span>e</span><span class="space"></span><span>t</span><span>o</span><span class="space"></span><span>M</span><span>o</span><span>o</span><span>b</span><span>!</span>
+      </h2>
 
     <!-- Call to action -->
     <div class="download-button">
@@ -180,6 +196,8 @@
       </a>
     </div>
 
+    <p class="tagline" itemprop="description">Made by Bopito™</p>
+
     <!-- Features Section -->
     <section aria-labelledby="features-heading" itemscope itemtype="https://schema.org/SoftwareApplication">
       <meta itemprop="applicationCategory" content="SocialNetworkingApplication" />
@@ -189,7 +207,7 @@
         <meta itemprop="priceCurrency" content="USD" />
         <meta itemprop="availability" content="https://schema.org/InStock" />
       </meta>
-      <h2 id="features-heading">Experience Pure Social Connection</h2>
+      <h2 id="features-heading">The Social Experience</h2>
       <p itemprop="description">
         In a world of filtered photos and endless scrolling, Moob brings back what matters most: real conversation. 
         It's time to Moob! Join thousands who are rediscovering the power of pure, text-based interaction.
@@ -197,23 +215,27 @@
 
       <div class="feature-grid">
         <div class="feature-card">
+          <span class="material-symbols-rounded">format_quote</span>
           <h3>Pure & Unfiltered</h3>
           <p>No photos. No videos. No filters. Just your thoughts, exactly as they are. Express yourself through the power of words alone.</p>
         </div>
 
         <div class="feature-card">
+          <span class="material-symbols-rounded">bolt</span>
           <h3>Lightning Fast</h3>
           <p>Share your thoughts instantly. No waiting for images to load or videos to buffer. Pure, immediate connection with your audience.</p>
         </div>
 
         <div class="feature-card">
+          <span class="material-symbols-rounded">verified</span>
           <h3>Truly Authentic</h3>
           <p>Without visual distractions, conversations become more meaningful. Build genuine connections based on ideas, not appearances.</p>
         </div>
 
         <div class="feature-card">
+          <span class="material-symbols-rounded">design_services</span>
           <h3>Minimalist Design</h3>
-          <p>A clean, focused interface that puts your words front and center. No clutter, no distractions—just pure social interaction.</p>
+          <p>A clean, focused interface that puts your words front and center. No clutter, no distractions... just pure social interaction!</p>
         </div>
       </div>
 
@@ -250,31 +272,37 @@
         <h3>Why Switch to Moob?</h3>
         <div class="platform-comparisons">
           <div class="comparison-card">
+            <span class="material-symbols-rounded">trending_down</span>
             <h4>Tired of Twitter/X?</h4>
             <p>No algorithm confusion. No subscription fees. No blue checks. Just pure, chronological conversations without the chaos.</p>
           </div>
 
           <div class="comparison-card">
+            <span class="material-symbols-rounded">thumb_down</span>
             <h4>Fed up with Facebook?</h4>
             <p>Skip the endless scrolling through marketplace ads and event invites. Focus on real connections, not collecting friends.</p>
           </div>
 
           <div class="comparison-card">
+            <span class="material-symbols-rounded">filter_none</span>
             <h4>Done with Instagram?</h4>
             <p>Leave behind the pressure of perfect photos and endless filters. Your words are worth more than any snapshot.</p>
           </div>
 
           <div class="comparison-card">
+            <span class="material-symbols-rounded">videocam_off</span>
             <h4>Tired of TikTok?</h4>
             <p>Step away from endless video loops and rediscover the art of written expression. Your time is valuable.</p>
           </div>
 
           <div class="comparison-card">
+            <span class="material-symbols-rounded">work_off</span>
             <h4>LinkedIn Burnout?</h4>
             <p>No more "I'm excited to announce" or humble brags. Share your professional thoughts without the corporate performance.</p>
           </div>
 
           <div class="comparison-card">
+            <span class="material-symbols-rounded">switch_access_shortcut</span>
             <h4>Over Threads?</h4>
             <p>Why wait for another Meta platform when you can join the original text-only revolution now?</p>
           </div>
@@ -284,8 +312,8 @@
       <section class="name-section">
         <h3>What's a Moob?</h3>
         <p>
-          Let's address the elephant in the room – yes, we've heard the jokes! A "Moob" is simply what we call a post on our platform. 
-          When you share your thoughts, you're creating a Moob. It's short, memorable, and maybe a little silly – just like we intended!
+          Let's address the elephant in the room: yes, we've heard the jokes! A "Moob" is simply what we call a post on our platform. 
+          When you share your thoughts, you're creating a Moob. It's short, memorable, and maybe a little silly just like we intended!
         </p>
         <p>
           Why Moob? Because social media should be fun, inclusive, and never take itself too seriously. We're building a platform where everyone 
@@ -297,33 +325,39 @@
         <h3>The Moob Experience</h3>
         <div class="experience-grid">
           <div class="experience-card">
+            <span class="material-symbols-rounded">sentiment_satisfied</span>
             <h4>Zero Pressure Posting</h4>
             <p>No need for perfect lighting or endless retakes. Your thoughts are ready to share the moment you have them.</p>
           </div>
 
           <div class="experience-card">
+            <span class="material-symbols-rounded">mindfulness</span>
             <h4>Mindful Design</h4>
             <p>Our clean interface reduces anxiety and FOMO. No notification bombs or addictive features – just genuine connection.</p>
           </div>
 
           <div class="experience-card">
+            <span class="material-symbols-rounded">update</span>
             <h4>Chronological Only</h4>
             <p>See posts in real-time, as they happen. No mysterious algorithms deciding what you should see.</p>
           </div>
 
           <div class="experience-card">
+            <span class="material-symbols-rounded">data_usage</span>
             <h4>Data Friendly</h4>
             <p>Text-only means tiny data usage. Perfect for travel, limited plans, or just being environmentally conscious.</p>
           </div>
 
           <div class="experience-card">
+            <span class="material-symbols-rounded">security</span>
             <h4>Privacy First</h4>
             <p>No facial recognition, no location tracking, no unnecessary permissions. Just you and your words.</p>
           </div>
 
           <div class="experience-card">
+            <span class="material-symbols-rounded">battery_charging_full</span>
             <h4>Battery Friendly</h4>
-            <p>Less drain on your device means more time for what matters – actual conversation.</p>
+            <p>Less drain on your device means more time for what matters --> actual conversation.</p>
           </div>
         </div>
       </section>
@@ -367,18 +401,11 @@
 
     <!-- Social Links Section -->
     <section aria-labelledby="social-heading" itemscope itemtype="https://schema.org/Organization">
-      <h2 id="social-heading">Connect With Us</h2>
       <nav class="social-links" aria-label="Social Media Links">
-        <link itemprop="sameAs" href="https://twitter.com/moobapp" />
-        <link itemprop="sameAs" href="https://www.linkedin.com/company/moobapp" />
-        <a href="https://twitter.com/moobapp" rel="noopener" aria-label="Follow Moob on Twitter">
+        <link itemprop="sameAs" href="https://instagram.com/user/moob.app" />
+        <a href="https://instagram.com/user/moob.app" rel="noopener" aria-label="Follow Moob on Instagram">
           <svg aria-hidden="true" class="social-icon" viewBox="0 0 24 24">
-            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
-          </svg>
-        </a>
-        <a href="https://www.linkedin.com/company/moobapp" rel="noopener" aria-label="Connect with Moob on LinkedIn">
-          <svg aria-hidden="true" class="social-icon" viewBox="0 0 24 24">
-            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
           </svg>
         </a>
       </nav>
@@ -388,7 +415,7 @@
 
   <!-- Hidden but indexable text block for SEO -->
   <div class="hidden-seo">
-    Moob is a modern, fast-paced social media platform that focuses entirely on raw, unfiltered text-based interaction. Unlike traditional social platforms, Moob strips away the noise — no videos, no images — just words. Perfect for those who crave authenticity and simplicity. Available now on iOS. Moob is free to download and changing how people interact online. Join the conversation.
+    Moob is a modern, fast-paced social media platform that focuses entirely on raw, unfiltered text-based interaction. Unlike traditional social platforms, Moob strips away the noise - no videos, no images — just words. Perfect for those who crave authenticity and simplicity. Available now on iOS. Moob is free to download and changing how people interact online. Join the conversation.
   </div>
 
   <!-- iOS redirect script -->
@@ -420,5 +447,10 @@
     })();
   </script>
 
-</body>
+    <footer>
+        <p>&copy; 2025 Bopito. All rights reserved.</p>
+        <p>Moob™ is a trademark of Bopito.</p>
+        <p><p>For support, contact us at <a href="mailto:contact@bopito.com" class="contact-link">contact@bopito.com</a>
+    </footer>
+
 </html>
