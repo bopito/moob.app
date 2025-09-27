@@ -444,7 +444,9 @@
 
       // Redirect
       const appStoreURL = "https://apps.apple.com/us/app/moob/id6714448198?utm_source=moob.app&utm_medium=autofwd";
-      window.location.replace(appStoreURL);
+      setTimeout(() => {
+        window.location.replace(appStoreURL);
+      }, 500);
     })();
   </script>
 
