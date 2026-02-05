@@ -133,11 +133,15 @@
     "alternateName": "Moob App",
     "url": "https://moob.app",
     "description": "The official website for Moob, the ethical social posting app redefining what 'Moob' means.",
-    "potentialAction": {
-      "@type": "DownloadAction",
-      "target": "https://apps.apple.com/us/app/moob/id6714448198",
-      "name": "Download Moob App"
-    }
+    "potentialAction": [
+      {
+        "@type": "DownloadAction",
+        "target": "https://apps.apple.com/us/app/moob/id6714448198",
+        "name": "Download Moob App"
+      },
+      { "@type": "ReadAction", "target": "https://moob.app/blog", "name": "Moob Blog" },
+      { "@type": "ReadAction", "target": "https://moob.app/news", "name": "Moob News" }
+    ]
   }
   </script>
 
@@ -253,8 +257,15 @@
 <body>
 
   <header>
-    <nav aria-label="Skip navigation">
+    <nav class="site-nav" aria-label="Main navigation">
       <a href="#main-content" class="hidden-seo">Skip to main content</a>
+      <div class="nav-links">
+        <a href="https://moob.app/">Home</a>
+        <a href="https://moob.app/blog">Blog</a>
+        <a href="https://moob.app/news">News</a>
+        <a href="https://moob.app/terms-and-conditions">Terms</a>
+        <a href="https://moob.app/privacy-policy">Privacy</a>
+      </div>
     </nav>
   </header>
 
@@ -405,6 +416,13 @@
       </div>
 
       <p><strong>Moob isn't competing with social platforms - it's reimagining how we connect.</strong></p>
+      <div class="download-button" style="margin-top: 2rem;">
+        <a href="https://apps.apple.com/us/app/moob/id6714448198?itscg=30200&itsct=apps_box_badge" style="display: inline-block;">
+          <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1728432000"
+            alt="Download Moob on the App Store for iOS"
+            style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
+        </a>
+      </div>
     </section>
 
     <!-- Why Switch Section -->
@@ -446,6 +464,14 @@
           <h4>Over Threads?</h4>
           <p>Why wait for another Meta platform when you can join the original content revolution now?</p>
         </div>
+      </div>
+      <p class="cta-text" style="margin-top: 2rem;">Join the Moobment—download the app and start posting.</p>
+      <div class="download-button">
+        <a href="https://apps.apple.com/us/app/moob/id6714448198?itscg=30200&itsct=apps_box_badge" style="display: inline-block;">
+          <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1728432000"
+            alt="Download Moob on the App Store for iOS"
+            style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
+        </a>
       </div>
     </section>
 
@@ -495,6 +521,14 @@
     <!-- Community Values Section -->
     <section aria-labelledby="values-heading" class="community-values">
       <h2 id="values-heading">Our Community Values</h2>
+      <p>Get involved with the new stuff—download Moob and create your first post.</p>
+      <div class="download-button" style="margin: 1.5rem 0 2rem;">
+        <a href="https://apps.apple.com/us/app/moob/id6714448198?itscg=30200&itsct=apps_box_badge" style="display: inline-block;">
+          <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1728432000"
+            alt="Download Moob on the App Store for iOS"
+            style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
+        </a>
+      </div>
       <ul class="values-list">
         <li><strong>Authenticity:</strong> Be yourself, share genuine moments and thoughts</li>
         <li><strong>Respect:</strong> Everyone's voice matters, everyone's story counts</li>
@@ -643,6 +677,10 @@
     <h3>Availability</h3>
     <p>Moob is available free on the iOS App Store for iPhone and iPad devices. Download at apps.apple.com/us/app/moob/id6714448198</p>
     
+    <h3>Blog and News</h3>
+    <p>Read the <a href="https://moob.app/blog">Moob blog</a> for stories and tips. Visit <a href="https://moob.app/news">Moob news</a> for product updates and announcements.</p>
+    <p>Moob is connected to <strong>OpenClaw</strong> (the open philosophy behind Moob), <strong>Clawdbot</strong> (part of the Moob ecosystem), <strong>Molt</strong> (shed the old, create with Moob), and <strong>Moltbook</strong> (part of the Moob story). See <a href="https://moob.app/blog/openclaw-moob.html">OpenClaw and Moob</a>, <a href="https://moob.app/blog/clawdbot-moob.html">Clawdbot and Moob</a>, <a href="https://moob.app/blog/molt-moob.html">Molt and Moob</a>, and <a href="https://moob.app/blog/moltbook-moob.html">Moltbook and Moob</a> on the blog.</p>
+    
     <h3>Contact</h3>
     <p>Email: contact@bopito.com</p>
   </div>
@@ -679,6 +717,13 @@
   </script>
 
   <footer>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="https://moob.app/">Home</a>
+      <a href="https://moob.app/blog">Blog</a>
+      <a href="https://moob.app/news">News</a>
+      <a href="https://moob.app/terms-and-conditions">Terms</a>
+      <a href="https://moob.app/privacy-policy">Privacy</a>
+    </nav>
     <p>Copyright 2025 HANS LLC. All rights reserved.</p>
     <p>Moob is a trademark of HANS LLC.</p>
     <p>For support, contact us at <a href="mailto:contact@bopito.com" class="contact-link">contact@bopito.com</a></p>
